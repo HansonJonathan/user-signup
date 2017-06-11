@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+}
+
+body {
+	width: auto;
+	margin: auto;
+	padding: 1.5em;
+	background: #f4eade;
+}
+
+form {
+	margin: auto;
+	background-color: #2988bc;
+	padding: .8em;
+	width: 20em;
+	font: 1em sans-serif;
+	border-radius: 2.5em .7em;
+	border: #ed8c72 .1em solid;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+label {
+	float: left;
+	clear: left;
+	color: #ed8c72;
+	text-shadow: 2px 2px 3px #2f496e;
+	margin: 3px;
+}
+
+div div {
+	width: 100%;
+	clear: both;
+	font-size: .75em;
+	text-align: center;
+	display: ;
+}
+
+input {
+	float: right;
+	clear: right;
+	width: 15em;
+	font: font: 1.5em sans-serif;
+	border-radius: .7em;
+	margin: 3px;
+}
+
+button {
+	float: none;
+	clear: both;
+	width: 12em;
+	margin: auto;
+	display: block;
+	position: relative;
+	bottom: 1em;
+	font-size: .7em;
+	text-align: center;
+	border-radius: .7em;
+	color: #ed8c72;
+	background: #2f496e;
+	border: #ed8c72 .1em solid;
+
+	text-shadow: 1px 1px 1px #2988bc;
+}
+
+button:hover {
+	color: #2f496e;
+	background: #ed8c72;
+	border: #2f496e .1em solid;
+
+}
+
+.error {
+	font-weight: 100;
+	color: #fdffff;
+}
+
+h1 {
+	color: #2f496e;
+	text-shadow: 1px 1px 1px #ed8c72;
+	font-size: 3em;
+	font-family: 'Great Vibes', cursive;
+	font-weight: 500;
+	text-align: center;
+}
