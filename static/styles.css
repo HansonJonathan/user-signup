@@ -17,7 +17,6 @@ form {
 	font: 1em sans-serif;
 	border-radius: 2.5em .7em;
 	border: #ed8c72 .1em solid;
-	overflow: hidden;
 	vertical-align: middle;
 }
 
@@ -26,15 +25,29 @@ label {
 	clear: left;
 	color: #ed8c72;
 	text-shadow: 2px 2px 3px #2f496e;
-	margin: 3px;
 }
 
 div div {
+	margin-top: .25em;
+	margin-bottom: .25em;
+	text-align: center;
+}
+
+div:nth-child(5){
+	position: absolute;
+	transform: rotate(0deg);
+	margin-left: 4em;
+}
+
+div div div {
 	width: 100%;
 	clear: both;
+	padding: 0;
+	border: 0;
+	margin: 0;
 	font-size: .75em;
 	text-align: center;
-	display: ;
+	display: none;
 }
 
 input {
@@ -43,24 +56,19 @@ input {
 	width: 15em;
 	font: font: 1.5em sans-serif;
 	border-radius: .7em;
-	margin: 3px;
 }
 
 button {
-	float: none;
-	clear: both;
-	width: 12em;
 	margin: auto;
 	display: block;
-	position: relative;
-	bottom: 1em;
-	font-size: .7em;
-	text-align: center;
-	border-radius: .7em;
-	color: #ed8c72;
 	background: #2f496e;
+	width: 12em;
 	border: #ed8c72 .1em solid;
-
+	border-radius: .7em;
+	
+	color: #ed8c72;
+	font-size: 1em;
+	text-align: center;
 	text-shadow: 1px 1px 1px #2988bc;
 }
 
